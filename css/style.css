@@ -94,11 +94,13 @@ header { height: 60px; }
 @media (max-width: 575.98px) {
     .Header{
         flex-direction: column;
-        height: 90px;
+        height: 100px;
         text-align: center;
+        margin-right: 0;
     }
     .Header-item{
         align-self: center;
+        padding-bottom: 10px;
     }
 }
 
